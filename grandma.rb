@@ -1,7 +1,5 @@
 # Write a speak_to_grandma method.
 
-say = "Hello"
-
 def speak_to_grandma(speak)
   
   if speak != speak.upcase
@@ -18,7 +16,6 @@ def speak_to_grandma(speak)
 end
 
 
-speak_to_grandma(say)
 
 
 # Whatever you say to grandma, she should respond with
