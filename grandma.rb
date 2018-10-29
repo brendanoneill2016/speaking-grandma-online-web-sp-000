@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 
-speak = "Hello"
+say = "Hello"
 
 def speak_to_grandma(speak)
   
@@ -16,6 +16,10 @@ def speak_to_grandma(speak)
   end
 
 end
+
+
+speak_to_grandma(say)
+
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
