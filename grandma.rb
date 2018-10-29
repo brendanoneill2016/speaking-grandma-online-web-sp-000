@@ -4,7 +4,7 @@ speak = "Hello"
 
 def speak_to_grandma
   
-  if !speak.upcase
+  if speak != speak.upcase
     puts 'HUH, SPEAK UP, SONNY!'
     
   elsif speak.upcase
