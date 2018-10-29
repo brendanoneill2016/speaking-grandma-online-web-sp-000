@@ -2,8 +2,12 @@
 
 speak = "Hello"
 
-
-
+def speak_to_grandma
+  
+  if speak.downcase
+    puts 'HUH, SPEAK UP, SONNY!'
+    
+  elsif 
 
 
 # Whatever you say to grandma, she should respond with
