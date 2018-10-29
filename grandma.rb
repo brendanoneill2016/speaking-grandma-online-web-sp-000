@@ -4,10 +4,16 @@ speak = "Hello"
 
 def speak_to_grandma
   
-  if speak.downcase
+  if !speak.upcase
     puts 'HUH, SPEAK UP, SONNY!'
     
-  elsif 
+  elsif speak.upcase
+    puts 'NO, NOT SINCE 1938!'
+    
+  elsif speak == "I LOVE YOU GRANDMA"
+    puts 'I LOVE YOU TOO PUMPKIN'
+    
+  end
 
 
 # Whatever you say to grandma, she should respond with
