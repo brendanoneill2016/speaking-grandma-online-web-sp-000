@@ -5,12 +5,12 @@ speak = "Hello"
 def speak_to_grandma
   
   if speak != speak.upcase
-    puts 'HUH, SPEAK UP, SONNY!'
+    puts 'HUH?! SPEAK UP, SONNY!'
     
   elsif speak.upcase
     puts 'NO, NOT SINCE 1938!'
     
-  elsif speak == "I LOVE YOU GRANDMA"
+  elsif speak == "I LOVE YOU GRANDMA!"
     puts 'I LOVE YOU TOO PUMPKIN'
     
   end
